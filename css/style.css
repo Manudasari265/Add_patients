@@ -267,14 +267,14 @@ i:hover {
   background: #ffffff;
   overflow:hidden;
   height: 90%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .inputs-parent{
   padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  height: 75%;
+  height: 70%;
   overflow-y:scroll;
 }
 
@@ -597,7 +597,7 @@ i:hover {
 
 @media only screen and  (max-width: 420px) {
   .inputs-parent {
-    height: 60%;
+    height: 40%;
   }
   .add-patient-action{
     flex-direction: column;
